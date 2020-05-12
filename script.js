@@ -25,6 +25,7 @@ function insertNum() {
     
     document.getElementById('btn').addEventListener('click', function(){
         var msg = document.getElementById('msg').value;
+        msg = encodeURI(msg)
         window.open('https://api.whatsapp.com/send?phone='+phone+'&text='+msg)
     })
 }
