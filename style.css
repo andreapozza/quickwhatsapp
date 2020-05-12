@@ -1,0 +1,46 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    font-size: 27px;
+}
+header{
+    height: 100px;
+    background-color: #00887a;
+    text-align: center;
+    
+}
+header label{
+    color: white;
+    position: relative;
+    top: 30px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+footer textarea, img{
+    display: inline;
+    margin-left: 10px;
+    position: relative;
+}
+footer textarea{
+    bottom: 15px;
+    width: 80%;
+    height: 35px;
+    border-radius: 25px;
+    padding: 0 10px;
+    box-shadow: 0 5px 5px grey;
+}
+@media only screen and (max-width: 640px) {
+    footer textarea{
+        max-width: 65%;
+    }
+  }
+footer img{
+    width: 64px;
+    margin-top: 25px;
+    box-shadow: 0 5px 5px grey;
+    border-radius: 50%;
+}
