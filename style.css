@@ -4,6 +4,7 @@ body{
     margin: 0;
     font-size: 27px;
 }
+
 header{
     height: 100px;
     background-color: #00887a;
@@ -22,11 +23,31 @@ header label{
     top: 35px;
     text-shadow: 0 5px 5px black;
 }
-
-#btn {
-    width: inherit;
-}
-
 footer {
-    
+    padding: 0 20px;
+    height: 64px;
+    margin-bottom: 10px;
+}
+footer .col-9, .col-3{
+    height: 100%;
+}
+.col-3{
+    text-align: end;
+}
+#msg{
+    position: absolute;
+    width: inherit;
+    height: 50px;
+    top: 50%;
+    margin-top: -25px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: medium;
+    outline: none;
+}
+#btn{
+    height: 64px;
+    position: relative;
+    top:50%;
+    margin-top: -32px;
 }
