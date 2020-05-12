@@ -16,13 +16,15 @@ function insertNum() {
             prefisso = numero.substring(0, 2)
             numero = numero.substring(2)
             document.getElementById('label').innerHTML = '+' + prefisso + ' ' + numero;
+            var phone = prefisso + numero;
         }
 
         else
             alert('Not valid');
     } while (non_valido)
-    /*
+    
     document.getElementById('btn').addEventListener('click', function(){
-
-    })*/
+        var msg = document.getElementById('msg').value;
+        window.open('https://api.whatsapp.com/send?phone='+phone+'&text='+msg)
+    })
 }
