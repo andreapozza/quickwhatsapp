@@ -1,5 +1,5 @@
 window.onload = function () {
-   // insertNum();
+   insertNum();
     document.getElementById('label').addEventListener('click', insertNum)
 
 }
