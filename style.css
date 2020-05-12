@@ -7,12 +7,13 @@ header{
     height: 100px;
     background-color: #00887a;
     text-align: center;
-    
+    box-shadow: 0 5px 5px grey;
 }
 header label{
     color: white;
     position: relative;
     top: 30px;
+    text-shadow: 0 5px 5px black;
 }
 footer{
     position: absolute;
@@ -28,10 +29,11 @@ footer textarea, img{
 footer textarea{
     bottom: 15px;
     width: 80%;
-    height: 35px;
+    height: 46px;
     border-radius: 25px;
-    padding: 0 10px;
+    padding: 0px 13px;
     box-shadow: 0 5px 5px grey;
+    font-size: inherit;
 }
 @media only screen and (max-width: 640px) {
     footer textarea{
