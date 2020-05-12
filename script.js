@@ -1,6 +1,6 @@
 window.onload = function () {
     insertNum();
-    this.document.getElementById('label').addEventListener('click', insertNum)
+    document.getElementById('label').addEventListener('click', insertNum)
 }
 
 function insertNum() {
@@ -13,7 +13,7 @@ function insertNum() {
         if (!isNaN(numero) && numero.trim() != '') {
             non_valido = false;
             numero = numero.trim().replace('+', '');
-            prefisso = numero.substring(0, 2)
+            var prefisso = numero.substring(0, 2)
             numero = numero.substring(2)
             document.getElementById('label').innerHTML = '+' + prefisso + ' ' + numero;
             var phone = prefisso + numero;
