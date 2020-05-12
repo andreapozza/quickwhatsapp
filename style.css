@@ -22,40 +22,11 @@ header label{
     top: 35px;
     text-shadow: 0 5px 5px black;
 }
-footer{
-    position: absolute;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
+
+#btn {
+    width: inherit;
 }
-footer textarea, img{
-    display: inline;
-    margin-left: 10px;
-    position: relative;
-}
-footer textarea{
-    bottom: 15px;
-    width: 90%;
-    height: 46px;
-    border-radius: 25px;
-    padding: 0px 13px;
-    box-shadow: 0 5px 5px grey;
-    font-size: inherit;
-    resize: none;
-}
-@media only screen and (max-width: 1280px) {
-    footer textarea{
-        max-width: 80%;
-    }
-  }
-@media only screen and (max-width: 640px) {
-    footer textarea{
-        max-width: 65%;
-    }
-  }
-footer img{
-    width: 64px;
-    margin-top: 25px;
-    box-shadow: 0 5px 5px grey;
-    border-radius: 50%;
+
+footer {
+    
 }

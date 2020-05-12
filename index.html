@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-
+    
 <head>
     <title>Quick Whatsapp</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
@@ -12,9 +13,14 @@
         <img src="img/user.png"/>
         <label id="label">Insert number</label>
     </header>
+    <p>hola</p>
     <footer>
-        <textarea id="msg"></textarea>
-        <img id="btn" src="img/button.png" />
+        <div class="row justify-content-center">
+            <div class="col-9"><textarea class=" form-control" id="msg"></textarea></div>
+            <div  class="col-3"><img class="btn" id="btn" src="img/button.png" /></div>
+        </div>
+        
+        
     </footer>
     <script src="script.js"></script>
 </body>
