@@ -24,12 +24,9 @@ header label{
     text-shadow: 0 5px 5px black;
 }
 footer {
-    padding: 0 20px;
+    padding: 0;
     height: 64px;
     margin-bottom: 10px;
-}
-footer .col-9, .col-3{
-    height: 100%;
 }
 .col-3{
     text-align: end;
