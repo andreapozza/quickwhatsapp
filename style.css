@@ -28,8 +28,13 @@ footer {
     height: 64px;
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
 .col-4{
     text-align: center;
+=======
+.col-3{
+    text-align: end;
+>>>>>>> c3d34749568ceffd357f9360b2d10d5170af5428
 }
 #msg{
     position: absolute;
