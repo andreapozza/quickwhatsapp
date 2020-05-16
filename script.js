@@ -1,8 +1,10 @@
-window.onload = function () {
-   insertNum();
+/*window.onload = () => {
+    insertNum();
     document.getElementById('label').addEventListener('click', insertNum)
+}*/
 
-}
+document.getElementById('btn').onclick = insertNum;
+document.getElementById('label').onclick = insertNum;
 
 function insertNum() {
     do {
@@ -23,9 +25,12 @@ function insertNum() {
             else
                 alert('Not valid');
     } while (non_valido)
-    document.getElementById('btn').onclick = function () {
-        var msg = document.getElementById('msg').value;
-        msg = encodeURI(msg)
-        window.open('https://api.whatsapp.com/send?phone=' + phone + '&text=' + msg)
+    if (numero != null) {
+        document.getElementById('btn').onclick = function () {
+            var msg = document.getElementById('msg').value;
+            msg = encodeURI(msg)
+            window.open('https://api.whatsapp.com/send?phone=' + phone + '&text=' + msg)
+        }
     }
+
 }
