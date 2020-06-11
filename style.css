@@ -1,37 +1,38 @@
-body{
+body {
     background-color: #e5ddd5;
     background-image: url(/img/sfondo-WA.png);
     margin: 0;
     font-size: 27px;
 }
 
-header{
+header {
     height: 100px;
     background-color: #00887a;
     text-align: center;
     box-shadow: 0 5px 5px grey;
 }
-header img{
+
+header img {
     position: absolute;
     left: 10px;
     top: 25px;
     width: 50px;
 }
-header label{
+
+header label {
     color: white;
     position: relative;
     top: 35px;
     text-shadow: 0 5px 5px black;
 }
+
 footer {
     padding: 0;
     height: 64px;
     margin-bottom: 10px;
 }
-.col-4{
-    text-align: center;
-}
-#msg{
+
+#msg {
     position: absolute;
     width: inherit;
     height: 50px;
@@ -42,9 +43,11 @@ footer {
     font-size: medium;
     outline: none;
 }
-#btn{
+
+#btn {
     height: 64px;
-    position: relative;
-    top:50%;
-    margin-top: -32px;
+    background-image: url('img/button.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
